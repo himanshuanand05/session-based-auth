@@ -1,0 +1,14 @@
+{
+  "name": "session-based-auth",
+  "version": "1.0.0",
+  "description": "JSON API service that can be used by mobile and web clients. It's written using Express with session based authentication(session token), migrations and automated functional testing. Idea of the service is simple - register and authenticate user, deliver data to the front-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "himanshuanand05@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
