@@ -1,9 +1,12 @@
 # Backend Task 
 This document contains a task for backend engineer position. Please think about all your  decisions while solving it. Provide essential solution without extra unused files which may come  with basic templates of the framework. Keep code clean without extra files and bad comments.  If you can’t provide clean solution no further code review will be taken. 
 Candidate is asked to write small backend JSON API service which will be used by mobile and  web clients. It should be written using Express or NestJS framework with session based  authentication (with session token), migrations and automated functional testing. 
-Idea of the service is simple - register and authenticate user, deliver data to the frontend. Database 
+Idea of the service is simple - register and authenticate user, deliver data to the frontend. 
+
+## Database 
 Candidate is asked to use Postgres database. Schema must be elicited by developer to fit  JSON API interface. ORM may be used in the code. Please use foreign keys. Separate User,  Token, Author and Quote entities. 
 It will be appreciated if EER schema will be prepared. 
+
 ## Versioning 
 Candidate must prepare his codes under GIT repository. Several releases must be separated  and simple branch release management must be applied. GitFlow classical approach will be  appreciated. 
 
@@ -23,7 +26,7 @@ Response:
 { 
  "success": true, 
  "data": { 
- "info": "Some information about the <b>company</b>."  } 
+    "info": "Some information about the <b>company</b>."  } 
 } 
 
 2. POST /register - only not authenticated 
